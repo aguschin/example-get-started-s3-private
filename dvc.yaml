@@ -41,3 +41,7 @@ stages:
     - prc.json:
         x: recall
         y: precision
+artifacts:
+  features:
+    path: data/features
+    type: model
